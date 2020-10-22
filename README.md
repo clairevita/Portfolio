@@ -20,7 +20,7 @@ When you change the page resolution they orient to stack on top of eachother. Th
 
 Clicking one of the images, a modal pops up populated dynamically with the project's used technology and relevant links.
 
-![](https://i.imgur.com/CU9bEUZ.png)
+![](https://i.imgur.com/nSm9X5u.png)
 
 ## Contact
 
