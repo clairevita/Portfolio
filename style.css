@@ -1,3 +1,11 @@
+nav{
+    height: 15%;
+}
+
+main{
+    height: 85%;
+}
+
 .footer{
     position: absolute;
     bottom: 0;
@@ -21,6 +29,3 @@ nav{
     background-color:  #FFD700;
 }
 
-#portfolioimg4{
-    height: 100%
-}
