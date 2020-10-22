@@ -2,7 +2,7 @@
 
    let suit = "♘"
 
-        var suitChanger = setInterval(changeSuit ,10000);
+        var suitChanger = setInterval(changeSuit ,6000);
         function changeSuit() {
             
             if(suit == "♘"){
