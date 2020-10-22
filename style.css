@@ -29,3 +29,10 @@ nav{
     background-color:  #FFD700;
 }
 
+.modal-content{
+    border-radius: 0px;
+}
+.modal-footer{
+    background-color:  #FFD700;
+}
+
