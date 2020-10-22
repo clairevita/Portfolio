@@ -8,12 +8,22 @@ I wanted this page to provide a fundamental framework for me to develop further 
 
 The About Me page acts as the home page for the site. It features a single Jumbotron component listing my name, professional titles, and a brief description of myself as a professional.
 
+![](https://i.imgur.com/G5idUhB.png)
+
 ## Portfolio
 
 The Portfolio page currently features 4 images which span the full width of the page. The first three show images of my most recent projects, while the fourth is a blank image. They are each titled and dated.
 
 When you change the page resolution they orient to stack on top of eachother. Their flexible status enables accessible design for any device.
 
+![](https://i.imgur.com/CU9bEUZ.png)
+
+Clicking one of the images, a modal pops up populated dynamically with the project's used technology and relevant links.
+
+![](https://i.imgur.com/CU9bEUZ.png)
+
 ## Contact
 
 The Contact page features a form for contacting me. Since there is no PHP connection to a server for mail delivery, the submit button is disabled. To the right there is a Contact Jumnotron which displays a basic text list of links to my GitHub, LinkedIn, as well as a MailTo: link.
+
+![](https://i.imgur.com/zvBCWDw.png)
