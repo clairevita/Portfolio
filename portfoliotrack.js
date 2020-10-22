@@ -23,6 +23,15 @@
                 suit = "♘";
             }
         }
+ 
+        for (i=0; i<6; i++){
+            $("#portfolioimg"+i).click(function(){
+                $('#myModal').modal('show');
+                console.log(this.id)
+            });
+        }
+
+
 
             
         
