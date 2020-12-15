@@ -41,8 +41,8 @@ nav{
 }
 
 section {
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
   }
   
   @keyframes fadeIn {
