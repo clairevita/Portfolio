@@ -22,16 +22,50 @@ body{
     }
   }
 nav{
-    background-color:  #FFD700;
+    background-color:  #faed27;
 }
 
 .modal-content{
     border-radius: 0px;
 }
 .modal-footer{
-    background-color:  #FFD700;
+    background-color:  #faed27;
 }
 
 nav{
     background-color:  #faed27;
 }
+
+.nav-link{
+    font: 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+section {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
