@@ -49,7 +49,6 @@ const portfolios = [
         links: ["https://oxfordblucher.github.io/Restaurant-Roulette", "https://github.com/oxfordblucher/Restaurant-Roulette"],
         semantic: ["Deployed Site", "Github Repository"]
 
-
     },
     portfolio4 = {
         title: "\"Work Day Scheduler\", 2020",
@@ -66,7 +65,6 @@ const portfolios = [
     }
 ]
 
-
 for (i = 0; i < 6; i++) {
     $("#portfolioimg" + i).attr("val", i);
     $("#portfolioimg" + i).click(function () {
@@ -80,7 +78,7 @@ for (i = 0; i < 6; i++) {
         });
 
         for (i = 0; i < portfolios[index].links.length; i++) {
-            $("#portfolioLinks").append("<li> <a href=" + portfolios[index].links[i] + ">" + portfolios[index].semantic[i] + "</a></li>");
+            $("#portfolioLinks").append("<li> <a target=\"_blank\" href=" + portfolios[index].links[i] + ">" + portfolios[index].semantic[i] + "</a></li>");
         }
     });
 }
