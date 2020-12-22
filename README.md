@@ -20,8 +20,3 @@ Clicking one of the images, a modal pops up populated dynamically with the proje
 
 ![](https://i.imgur.com/nSm9X5u.png)
 
-## Contact
-
-The Contact page features a form for contacting me. Since there is no PHP connection to a server for mail delivery, the submit button is disabled. To the right there is a Contact Jumnotron which displays a basic text list of links to my GitHub, LinkedIn, as well as a MailTo: link.
-
-![](https://i.imgur.com/zvBCWDw.png)
