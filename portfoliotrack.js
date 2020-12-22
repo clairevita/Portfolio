@@ -50,20 +50,20 @@ const portfolios = [
         semantic: ["Deployed Site", "Github Repository"]
 
     },
-    portfolio4 = {
-        title: "\"Work Day Scheduler\", 2020",
-        description: ["HTML", "CSS", "JavaScript"],
-        links: ["https://clairevita.github.io/Scheduler", "https://github.com/clairevita/Scheduler"],
-        semantic: ["Deployed Site", "Github Repository"]
-
-    },
-    // portfolio5 = {
-    //     title: "\"What's My Weather?\", 2020",
+    // portfolio4 = {
+    //     title: "\"Work Day Scheduler\", 2020",
     //     description: ["HTML", "CSS", "JavaScript"],
-    //     links: ["https://clairevita.github.io/WeatherApp", "https://github.com/clairevita/WeatherApp"],
+    //     links: ["https://clairevita.github.io/Scheduler", "https://github.com/clairevita/Scheduler"],
     //     semantic: ["Deployed Site", "Github Repository"]
-    // }
-        portfolio5 = {
+
+    // },
+    portfolio4 = {
+        title: "\"What's My Weather?\", 2020",
+        description: ["HTML", "CSS", "JavaScript"],
+        links: ["https://clairevita.github.io/WeatherApp", "https://github.com/clairevita/WeatherApp"],
+        semantic: ["Deployed Site", "Github Repository"]
+    },
+    portfolio5 = {
         title: "\"CSC-Visualizer\", 2020",
         description: ["HTML", "CSS", "JavaScript", "Passport", "Node.js", "Sequelize", "MySQL", "Express.js"],
         links: ["https://scorecard-visualizer.herokuapp.com/", "https://github.com/J35RL4R/college-score-card-visualizer"],
