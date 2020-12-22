@@ -8,12 +8,6 @@ I wanted this page to provide a fundamental framework for me to develop further 
 
 A small aesthetic feature, the chess character in my name on the nav bar cycles through different pieces on a timer.
 
-## About Me
-
-The About Me page acts as the home page for the site. It features a single Jumbotron component listing my name, professional titles, and a brief description of myself as a professional.
-
-![](https://i.imgur.com/G5idUhB.png)
-
 ## Portfolio
 
 The Portfolio page currently features 4 images which span the full width of the page. The first three show images of my most recent projects, while the fourth is a blank image. They are each titled and dated.
