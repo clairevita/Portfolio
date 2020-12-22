@@ -64,9 +64,9 @@ const portfolios = [
     //     semantic: ["Deployed Site", "Github Repository"]
     // }
         portfolio5 = {
-        title: "\"What's My Weather?\", 2020",
-        description: ["HTML", "CSS", "JavaScript"],
-        links: ["https://clairevita.github.io/WeatherApp", "https://github.com/clairevita/WeatherApp"],
+        title: "\"CSC-Visualizer\", 2020",
+        description: ["HTML", "CSS", "JavaScript", "Passport", "Node.js", "Sequelize", "MySQL", "Express.js"],
+        links: ["https://scorecard-visualizer.herokuapp.com/", "https://github.com/J35RL4R/college-score-card-visualizer"],
         semantic: ["Deployed Site", "Github Repository"]
     }
 ]
