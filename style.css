@@ -93,5 +93,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
 
+  #socialIcon:hover{
+    transition: .4s ease;
+    box-shadow: 0 0 3px #FF0000;
   }

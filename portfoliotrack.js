@@ -92,21 +92,4 @@ for (i = 0; i < 6; i++) {
 $(".modal").on("hidden.bs.modal", function () {
     $("#portfolioDescription").empty();
     $("#portfolioLinks").empty();
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});
