@@ -50,13 +50,6 @@ const portfolios = [
         semantic: ["Deployed Site", "Github Repository"]
 
     },
-    // portfolio4 = {
-    //     title: "\"Work Day Scheduler\", 2020",
-    //     description: ["HTML", "CSS", "JavaScript"],
-    //     links: ["https://clairevita.github.io/Scheduler", "https://github.com/clairevita/Scheduler"],
-    //     semantic: ["Deployed Site", "Github Repository"]
-
-    // },
     portfolio4 = {
         title: "\"What's My Weather?\", 2020",
         description: ["HTML", "CSS", "JavaScript"],
