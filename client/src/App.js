@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-
+import React from 'react';
+import SectionCard from './components/Section/Card';
 function App() {
   return (
     <div>
-        Server Running
+        <SectionCard />
     </div>
   );
 }
