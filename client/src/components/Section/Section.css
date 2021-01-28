@@ -1,0 +1,5 @@
+section {
+    visibility: visible;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 4s;
+}
