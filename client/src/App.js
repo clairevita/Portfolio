@@ -1,9 +1,12 @@
 import React from 'react';
-import SectionCard from './components/Section/Card';
+import Nav from './components/Nav';
+import Main from './components/Main';
 function App() {
   return (
     <div>
-        <SectionCard />
+      <Nav />
+      <Main />
+      <hr class="my-4"></hr>
     </div>
   );
 }
