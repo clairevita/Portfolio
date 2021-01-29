@@ -32,6 +32,5 @@ function ModalBody() {
                         </div>
                     </div>
                 </div>
-        </div>
     )
 }
