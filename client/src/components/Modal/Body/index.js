@@ -34,3 +34,5 @@ function ModalBody() {
                 </div>
     )
 }
+
+export default ModalBody
