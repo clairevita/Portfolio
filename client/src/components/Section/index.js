@@ -9,8 +9,8 @@ import Card5 from './SectionCards/Card5';
 function Section() {
     return (
         <section>
-            <div class="mw-100 container">
-                <div class="row">
+            <div className="mw-100 container">
+                <div className="row">
                     <Card0 />
                     <Card1 />
                     <Card2 />

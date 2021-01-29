@@ -4,7 +4,7 @@ import github from './images/github.png'
 import linkedin from './images/linkedin.png'
 function Main() {
     return (
-        <main role="main" class="container">
+        <main role="main" className="container">
             <div className="row">
                 <div className="mt-5 col">
                     <h1 className="display-4" id="suit">Claire ♘ Vita</h1>

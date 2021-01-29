@@ -58,12 +58,10 @@ const State = useState({
 
   return (
     <Context.Provider value={{State}}>
-    <body>
       <Nav />
       <Main />
-      <hr class="my-4"></hr>
+      <hr className="my-4"></hr>
       <Section />
-    </body>
     </Context.Provider>
   );
    
