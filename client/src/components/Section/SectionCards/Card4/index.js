@@ -1,9 +1,9 @@
 import React from 'react';
 import '../Card.css';
 import image from '../Images/4.png';
-function Card4() {
-    return (
-        <div className="col-lg-6 px-0" id="portfolioimg4">
+const Card4 = ({ onClick }) => (
+
+        <div onClick={onClick} className="col-lg-6 px-0" id="portfolioimg4">
         <div className="card bg-dark text-white rounded-0">
         <img src={image} className="card-img"
                 alt="A screenshot from the Work Day Scheduler web app. It shows a sections for each hour of the day colored according to if it has passed, current, or future.">
@@ -14,6 +14,6 @@ function Card4() {
         </div>
     </div>
     )
-}
+
 
 export default Card4;

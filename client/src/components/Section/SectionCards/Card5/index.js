@@ -1,9 +1,9 @@
 import React from 'react';
 import '../Card.css';
 import image from '../Images/5.png';
-function Card5() {
-    return (
-        <div className="col-lg-6 px-0" id="portfolioimg5">
+const Card5  = ({ onClick }) => (
+ 
+        <div onClick={onClick} className="col-lg-6 px-0" id="portfolioimg5">
             <div className="card bg-dark text-white rounded-0">
                 <img src={image} className="card-img"
                     alt="A screenshot from the CSC-Visualizer app. It showcases visualized university statistics for Harvard.">
@@ -14,6 +14,6 @@ function Card5() {
             </div>
         </div>
     )
-}
+
 
 export default Card5;

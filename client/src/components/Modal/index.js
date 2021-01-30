@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Modal.css';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal, } from 'react-bootstrap';
 
 function MyVerticallyCenteredModal(props) {
     return (
@@ -31,18 +31,41 @@ function MyVerticallyCenteredModal(props) {
   }
 
 function CustomModal() {
-    const [modalShow, setModalShow] = React.useState(false);
     return (
-        <>
-        <Button variant="primary" onClick={() => setModalShow(true)}>
-          Launch vertically centered modal
-        </Button>
-  
-        <MyVerticallyCenteredModal
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
-      </>
+        // <div>
+        //     <div className="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+        //         aria-hidden="true">
+        //         <div className="modal-dialog modal-xl">
+        //             <div className="modal-content">
+        //                 <div className="modal-header">
+        //                     <h2 className="modal-title"></h2>
+        //                 </div>
+        //                 <div className="modal-body">
+        //                     <div className="row">
+        //                         <div className="col">
+        //                             <h5>Technical Contributions:</h5>
+        //                             <ul id="portfolioDescription">
+        //                             </ul>
+        //                             <hr></hr>
+        //                                 <h5>Links:</h5>
+        //                                 <ul id="portfolioLinks">
+        //                                 </ul>
+        //                          </div>
+        //                             <div className="w-100"></div>
+        //                             <div className="col"><img id="portImage"></img></div>
+        //                             </div>
+        //                         </div>
+        //                         <div className="modal-footer">
+        //                             <button type="button" className="btn btn-default btn-lg btn-block"
+        //                                 data-dismiss="modal">Close</button>
+        //                         </div>
+        //                     </div>
+        //                 </div>
+        //             </div>
+        //         </div>
+        <Modal>
+
+        </Modal>
     )
 }
 

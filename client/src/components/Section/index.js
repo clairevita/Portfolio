@@ -8,7 +8,7 @@ import Card4 from './SectionCards/Card4';
 import Card5 from './SectionCards/Card5';
 import { Modal, Button } from 'react-bootstrap';
 
-function MyVerticallyCenteredModal(props) {
+function ModalFrame(props) {
     return (
         <Modal
             {...props}
@@ -36,10 +36,12 @@ function MyVerticallyCenteredModal(props) {
     );
 }
 
-
 function Section() {
     const [modalShow, setModalShow] = React.useState(false);
-    function handleClick(){
+    function handleClick() {
+        console.log(
+            'Hi!'
+        )
         setModalShow(true);
     }
     return (
@@ -54,7 +56,7 @@ function Section() {
                     <Card5 onClick={handleClick} />
                 </div>
             </div>
-            <MyVerticallyCenteredModal
+            <ModalFrame
                 show={modalShow}
                 onHide={() => setModalShow(false)} />
 
