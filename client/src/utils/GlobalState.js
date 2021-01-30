@@ -1,7 +1,11 @@
 import React from "react";
 
-const Context = React.createContext({
-
+const ModalContext = React.createContext({
+    title: [],
+    technologies: [],
+    description: [],
+    links: [],
+    semantic: []
 });
 
-export default Context;
+export default ModalContext;

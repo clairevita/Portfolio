@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { createContext, useReducer, useContext } from 'react';
 import './Section.css';
 import Card0 from './SectionCards/Card0';
 import Card1 from './SectionCards/Card1';
@@ -38,22 +38,27 @@ function ModalFrame(props) {
 
 function Section() {
     const [modalShow, setModalShow] = React.useState(false);
-    function handleClick() {
-        console.log(
-            'Hi!'
-        )
+    function handleClick(val) {
+        console.log(val);
+        
+        for (let i = 0; i<6; i++){
+            if (i == val) {
+
+            } 
+        }
+
         setModalShow(true);
     }
     return (
         <section>
             <div className="mw-100 container">
                 <div className="row">
-                    <Card0 onClick={handleClick} />
-                    <Card1 onClick={handleClick} />
-                    <Card2 onClick={handleClick} />
-                    <Card3 onClick={handleClick} />
-                    <Card4 onClick={handleClick} />
-                    <Card5 onClick={handleClick} />
+                    <Card0 onClick= {() => {handleClick(0)}} />
+                    <Card1  onClick= {() => {handleClick(1)}} />
+                    <Card2 onClick= {() => {handleClick(2)}} />
+                    <Card3 onClick= {() => {handleClick(3)}} />
+                    <Card4 onClick= {() => {handleClick(4)}} />
+                    <Card5 onClick= {() => {handleClick(5)}} />
                 </div>
             </div>
             <ModalFrame
