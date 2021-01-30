@@ -3,7 +3,7 @@ import "./App.css";
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Section from './components/Section';
-import Context from './utils/Context';
+import State from './utils/GlobalState';
 function App() {
 
 const State = useState({
@@ -57,12 +57,12 @@ const State = useState({
 })
 
   return (
-    <Context.Provider value={{State}}>
+    <State>
       <Nav />
       <Main />
       <hr className="my-4"></hr>
       <Section />
-    </Context.Provider>
+    </State>
   );
    
 
