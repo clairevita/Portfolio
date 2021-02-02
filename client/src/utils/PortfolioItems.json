@@ -1,53 +1,30 @@
 {
     "title": [
-        "\".Sombra\", 2017",
-        "\"Funding Founding\", 2019",
-        "\"VRweld\", 2020",
-        "\"UMEWE\", 2020",
-        "\"What's My Weather?\", 2020",
-        "\"CSC-Visualizer\", 2020"
+        ".Sombra, 2017",
+        "Funding Founding, 2019",
+        "VRweld, 2020",
+        "UMEWE, 2020",
+        "What's My Weather?, 2020",
+        "\"CSC-Visualizer, 2020"
     ],
     "technologies": [
         [
-            "Unity Game Engine",
-            "C#",
-            "Javascript"
+            "Unity Game Engine,  C#,  Javascript"
         ],
         [
-            "HTML",
-            "CSS",
-            "FFMPEG"
+            "HTML,  CSS,  FFMPEG"
         ],
         [
-            "HTML",
-            "CSS",
-            "PHP",
-            "MySQL",
-            "WordPress",
-            "Unity Game Engine"
+            "HTML,  CSS,  PHP,  MySQL,  WordPress,  Unity Game Engine"
         ],
         [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Google Maps API",
-            "Zomato API",
-            "Geocoding API"
+            "HTML,  CSS,  JavaScript,  Bing Maps API,  Zomato API,  Geocoding API"
         ],
         [
-            "HTML",
-            "CSS",
-            "JavaScript"
+            "HTML,  CSS,  JavaScript"
         ],
         [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Passport",
-            "Node.js",
-            "Sequelize",
-            "MySQL",
-            "Express.js"
+            "HTML,  CSS,  JavaScript,  Passport,  Node.js,  Sequelize,  MySQL,  Express.js"
         ]
     ],
     "description": [],

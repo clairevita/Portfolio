@@ -25,12 +25,10 @@ function ModalFrame(props) {
           </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h4>Centered Modal</h4>
+            <h4>{technologies}</h4>
                 <p>
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                    consectetur ac, vestibulum at eros.
-          </p>
+                    {description}
+                </p>
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide}>Close</Button>
@@ -43,16 +41,16 @@ function Section() {
     const [modalShow, setModalShow] = useState(false);
     const [ModalContext, setModalContext] = useState({
         title: "", 
-        technologies: "",
+        technologies: [],
         description: "",
-        links: "",
-        semantic: ""
+        links: [],
+        semantic: []
     });
     function handleClick(val) {
         console.log(val);
                 setModalContext({
                     title: PortfolioItems.title[val], 
-                    technologies: PortfolioItems.technologies[val],
+                    technologies: PortfolioItems.technologies[val][0],
                     description: "",
                     links: PortfolioItems.links[val],
                     semantic: PortfolioItems.semantic[val]
