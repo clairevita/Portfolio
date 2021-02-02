@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import './Section.css';
 import Card0 from './SectionCards/Card0';
 import Card1 from './SectionCards/Card1';
@@ -7,8 +7,11 @@ import Card3 from './SectionCards/Card3';
 import Card4 from './SectionCards/Card4';
 import Card5 from './SectionCards/Card5';
 import { Modal, Button } from 'react-bootstrap';
+import ModalState from '../../utils/ModalState';
+import PortfolioItems from '../../utils/PortfolioItems.json';
 
 function ModalFrame(props) {
+    const { title, technologies, description, links, semantic } = useContext(ModalState);
     return (
         <Modal
             {...props}
@@ -18,7 +21,7 @@ function ModalFrame(props) {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                   {}
+                   {title}
           </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -37,18 +40,31 @@ function ModalFrame(props) {
 }
 
 function Section() {
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] = useState(false);
+    const [ModalContext, setModalContext] = useState({
+        title: "", 
+        technologies: "",
+        description: "",
+        links: "",
+        semantic: ""
+    });
     function handleClick(val) {
         console.log(val);
-        
-        for (let i = 0; i<6; i++){
-            if (i == val) {
-
-            } 
+                setModalContext({
+                    title: PortfolioItems.title[val], 
+                    technologies: PortfolioItems.technologies[val],
+                    description: "",
+                    links: PortfolioItems.links[val],
+                    semantic: PortfolioItems.semantic[val]
+                })
+                    setModalShow(true);
+                console.log(ModalContext);
+             
+                
         }
 
-        setModalShow(true);
-    }
+       
+    
     return (
         <section>
             <div className="mw-100 container">
@@ -61,10 +77,15 @@ function Section() {
                     <Card5 onClick= {() => {handleClick(5)}} />
                 </div>
             </div>
-            <ModalFrame
+        <ModalState.Provider value={ModalContext}>
+        <ModalFrame
                 show={modalShow}
-                onHide={() => setModalShow(false)} />
+                onHide={() => setModalShow(false)} 
+                value={ModalState}
+                />
+        </ModalState.Provider>
 
+          
 
         </section>
     )
