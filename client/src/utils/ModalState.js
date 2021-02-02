@@ -6,7 +6,7 @@ const ModalContext = React.createContext({
     description: [],
     links: [],
     semantic: [],
-    key: ""
+    i: 0
 });
 
 export default ModalContext;

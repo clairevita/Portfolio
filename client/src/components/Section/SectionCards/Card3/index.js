@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Card.css';
-import image from '../Images/3.png';
+import image from '../../images/3.png';
 const Card3 = ({ onClick }) => (
 
         <div onClick={onClick} className="col-lg-6 px-0" id="portfolioimg3">

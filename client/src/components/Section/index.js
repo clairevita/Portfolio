@@ -10,8 +10,12 @@ import { Modal, Button } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
 
+
+ 
 function ModalFrame(props) {
-    const { title, technologies, description, links, semantic, key } = useContext(ModalState);
+    const { title, technologies, description, links, semantic, i } = useContext(ModalState);
+    
+    const image = require('./images/' + i + '.png');
     return (
         <Modal
             {...props}
@@ -33,7 +37,7 @@ function ModalFrame(props) {
                 </p>
             </div>
             <div class="w-100"></div>
-            <div class="col"><img src={"images/image"}></img></div>
+            <div class="col"><img src={image}></img></div>
             </div>
 
             </Modal.Body>
@@ -52,22 +56,21 @@ function Section() {
         description: "",
         links: [],
         semantic: [],
-        key: ""
+        i: 0
     });
     function handleClick(val) {
         console.log(val);
+       
                 setModalContext({
                     title: PortfolioItems.title[val], 
                     technologies: PortfolioItems.technologies[val][0],
                     description: "",
                     links: PortfolioItems.links[val],
                     semantic: PortfolioItems.semantic[val],
-                    key: val
+                    i: val
                 })
                     setModalShow(true);
-                console.log(ModalContext);
-             
-                
+                console.log(ModalContext);                 
         }
 
        
