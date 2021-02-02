@@ -1,4 +1,4 @@
-import React, { createContext, useReducer, useContext } from 'react';
+import React, { useContext } from 'react';
 import './Section.css';
 import Card0 from './SectionCards/Card0';
 import Card1 from './SectionCards/Card1';
@@ -18,7 +18,7 @@ function ModalFrame(props) {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    Modal heading
+                   {}
           </Modal.Title>
             </Modal.Header>
             <Modal.Body>
