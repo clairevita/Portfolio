@@ -11,7 +11,7 @@ import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
 
 function ModalFrame(props) {
-    const { title, technologies, description, links, semantic } = useContext(ModalState);
+    const { title, technologies, description, links, semantic, key } = useContext(ModalState);
     return (
         <Modal
             {...props}
@@ -25,13 +25,20 @@ function ModalFrame(props) {
           </Modal.Title>
             </Modal.Header>
             <Modal.Body>
+            <div className="row">
+            <div className="col">
             <h4>{technologies}</h4>
                 <p>
                     {description}
                 </p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col"><img src={"images/image"}></img></div>
+            </div>
+
             </Modal.Body>
             <Modal.Footer>
-                <Button onClick={props.onHide}>Close</Button>
+                <Button className="btn btn-default btn-lg btn-block" onClick={props.onHide}>Close</Button>
             </Modal.Footer>
         </Modal>
     );
@@ -44,7 +51,8 @@ function Section() {
         technologies: [],
         description: "",
         links: [],
-        semantic: []
+        semantic: [],
+        key: ""
     });
     function handleClick(val) {
         console.log(val);
@@ -53,7 +61,8 @@ function Section() {
                     technologies: PortfolioItems.technologies[val][0],
                     description: "",
                     links: PortfolioItems.links[val],
-                    semantic: PortfolioItems.semantic[val]
+                    semantic: PortfolioItems.semantic[val],
+                    key: val
                 })
                     setModalShow(true);
                 console.log(ModalContext);
