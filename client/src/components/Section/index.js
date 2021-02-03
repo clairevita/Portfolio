@@ -23,17 +23,21 @@ function ModalFrame(props) {
             centered
         >
             <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
+                <Modal.Title id="contained-modal-title-vcenter"
+                elementType="StyledAsH1"
+                >
                    {title}
           </Modal.Title>
             </Modal.Header>
             <Modal.Body>
             <div className="row">
             <div className="col">
-            <h4>{technologies}</h4>
-                <p>
-                    {description}
-                </p>
+            <h5><strong>Technical Contributions:</strong></h5>
+            <ul><li>{technologies}</li></ul>
+            <h5><strong>Description:</strong></h5>
+            <ul><li>{description}</li></ul>
+            <h5><strong>Links:</strong></h5>
+            <ul><li>{links}</li></ul>
             </div>
             
             <img className="exampleImage" src={image}></img>
