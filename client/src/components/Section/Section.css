@@ -5,5 +5,8 @@ section {
 }
 
 .exampleImage{
-    width: 100%;
+    width: 65%;
 }
+.my-modal {
+    min-width: 70%;
+} 

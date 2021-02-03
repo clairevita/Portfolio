@@ -18,8 +18,7 @@ function ModalFrame(props) {
     return (
         <Modal
             {...props}
-            size="lg"
-            dialogClassName="modal-90w"
+            dialogClassName="my-modal"
             aria-labelledby="example-custom-modal-styling-title"
             centered
         >
@@ -93,6 +92,7 @@ function Section() {
         <ModalFrame
                 show={modalShow}
                 onHide={() => setModalShow(false)} 
+                dialogClassName="modal-90w"
                 value={ModalState}
                 />
         </ModalState.Provider>
