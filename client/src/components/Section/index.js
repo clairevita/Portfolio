@@ -14,13 +14,13 @@ import PortfolioItems from '../../utils/PortfolioItems.json';
  
 function ModalFrame(props) {
     const { title, technologies, description, links, semantic, i } = useContext(ModalState);
-    
     const image = require('./images/' + i + '.png');
     return (
         <Modal
             {...props}
             size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
+            dialogClassName="modal-90w"
+            aria-labelledby="example-custom-modal-styling-title"
             centered
         >
             <Modal.Header closeButton>
@@ -36,8 +36,10 @@ function ModalFrame(props) {
                     {description}
                 </p>
             </div>
-            <div class="w-100"></div>
-            <div class="col"><img src={image}></img></div>
+            
+            <img className="exampleImage" src={image}></img>
+            
+            
             </div>
 
             </Modal.Body>
