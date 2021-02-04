@@ -19,10 +19,12 @@ import PortfolioItems from '../../utils/PortfolioItems.json';
 function ModalFrame(props) {
     const { title, technologies, description, links, semantic, i } = useContext(ModalState);
     let image;
-    for (let j =0; j<6; j++){
-        if (j == i){
-            image = './images/' + j + '.png'
-        }
+    if (i == 0){
+        image = Image0;
+    } else if (i == 1){
+        image = Image1;
+    } else if (i == 2){
+        image = Image2;
     }
     
  
