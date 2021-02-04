@@ -25,6 +25,12 @@ function ModalFrame(props) {
         image = Image1;
     } else if (i == 2){
         image = Image2;
+    }else if (i == 3){
+        image = Image3;
+    } else if (i == 4){
+        image = Image4;
+    } else {
+        image = Image5;
     }
     
  
