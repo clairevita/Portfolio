@@ -42,7 +42,7 @@ function ModalFrame(props) {
                             return <li><a href={links} target="_blank">{linkSemantic}</a></li>;
                         })}
                     </div>
-                    <div className="col d-none d-lg-block"><img className="exampleImage" src={image} centered></img></div>
+                    <div className="col d-none d-lg-block"><img className="exampleImage" src={image} width="100"></img></div>
 
 
 
@@ -77,8 +77,6 @@ function Section() {
         })
         setModalShow(true);
     }
-
-
 
     return (
         <section>
