@@ -67,8 +67,6 @@ function Section() {
         i: 0
     });
     function handleClick(val) {
-        console.log(val);
-
         setModalContext({
             title: PortfolioItems.title[val],
             technologies: PortfolioItems.technologies[val][0],
@@ -78,7 +76,6 @@ function Section() {
             i: val
         })
         setModalShow(true);
-        console.log(ModalContext);
     }
 
 
