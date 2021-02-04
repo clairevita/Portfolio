@@ -2,7 +2,7 @@
 
 ## [Deployed Site](https://clairevita.herokuapp.com/)
 
-## Welcome 🃁 to 🂱 my 🃑 portfolio 🂡
+## Welcome 🂽 to 🂽 my 🂽 portfolio 🂽
 
 This web page highlights a handful of projects I've directed, managed, or participated in. This app uses the React library to host a clean front end experience, and organized method for component design and implementation. 
 
