@@ -1,12 +1,12 @@
 # Portfolio Website
 
-## [Deployed Site](https://clairevita.github.io/)
+## [Deployed Site](https://clairevita.herokuapp.com/)
 
-This page was a test in my skills as a responsive web designer. Using the Bootstrap framework, this website showcases my competency in implementing a responsive grid system to scale page content according to screen resolution. This also showcases my ability to implement a simple nav bar, for ease of user experience as well as sticky footers, sub-rows and sub-columns. 
+Welcome 🃁 to 🂱 my 🃑 portfolio 🂡
 
-I wanted this page to provide a fundamental framework for me to develop further as I complete projects related to my participation in the Penn LPS Coding Bootcamp. It's framework is minimalist to future-proof for future design decisions.
+This web page highlights a handful of projects I've directed, managed, or participated in. This app uses the React library to host a clean front end experience, and organized method for component design and implementation. 
 
-A small aesthetic feature, the chess character in my name on the nav bar cycles through different pieces on a timer.
+I wanted this page to provide a fundamental framework for me to develop further as I complete projects related to my participation in the Penn LPS Coding as well as personal and professional projects I develop in the future. It's framework is minimalist to future-proof for any design redirections I may want through my career.
 
 ## Portfolio
 
