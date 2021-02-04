@@ -14,9 +14,9 @@ The Portfolio page currently features 4 images which span the full width of the 
 
 When you change the page resolution they orient to stack on top of eachother. Their flexible status enables accessible design for any device.
 
-![](https://i.imgur.com/CU9bEUZ.png)
+![](https://i.imgur.com/OHdn1HY.png)
 
 Clicking one of the images, a modal pops up populated dynamically with the project's used technology and relevant links.
 
-![](https://i.imgur.com/nSm9X5u.png)
+![](https://i.imgur.com/OHdn1HY.png)
 
