@@ -12,7 +12,7 @@ import PortfolioItems from '../../utils/PortfolioItems.json';
 
 function ModalFrame(props) {
     const { title, technologies, description, links, semantic, i } = useContext(ModalState);
-    const image = require('./' + i + '.png');
+    const image = require('./images/' + i + '.png');
     return (
         <Modal
             {...props}
