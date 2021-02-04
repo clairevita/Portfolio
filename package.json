@@ -15,6 +15,9 @@
     "heroku-postbuild": "npm run build",
     "seed": "node scripts/seedDB.js"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "devDependencies": {
     "concurrently": "^4.1.0"
   },
