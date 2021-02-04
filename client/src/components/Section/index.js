@@ -37,10 +37,13 @@ function ModalFrame(props) {
                         <h5><strong>Description:</strong></h5>
                         <ul><li>{description}</li></ul>
                         <h5><strong>Links:</strong></h5>
-                        <ul><li><a href={links[0]} target="_blank">{semantic[0]}</a></li></ul>
+                        {links.map(function (links, i) {
+                            let linkSemantic = semantic[i]
+                            return <li><a href={links} target="_blank">{linkSemantic}</a></li>;
+                        })}
                     </div>
                     <div className="col d-none d-lg-block"><img className="exampleImage" src={image} centered></img></div>
-                    
+
 
 
                 </div>
