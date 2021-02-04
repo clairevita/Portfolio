@@ -6,7 +6,7 @@ import Card2 from './SectionCards/Card2';
 import Card3 from './SectionCards/Card3';
 import Card4 from './SectionCards/Card4';
 import Card5 from './SectionCards/Card5';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
 
