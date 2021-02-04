@@ -1,0 +1,84 @@
+{
+    "title": [
+        ".Sombra, 2017",
+        "Funding Founding, 2019",
+        "VRweld, 2020",
+        "UMEWE, 2020",
+        "What's My Weather?, 2020",
+        "CSC-Visualizer, 2020"
+    ],
+    "technologies": [
+        [
+            "Unity Game Engine,  C#,  Javascript"
+        ],
+        [
+            "HTML,  CSS,  FFMPEG"
+        ],
+        [
+            "HTML,  CSS,  PHP,  MySQL,  WordPress,  Unity Game Engine"
+        ],
+        [
+            "HTML,  CSS,  JavaScript,  Bing Maps API,  Zomato API,  Geocoding API"
+        ],
+        [
+            "HTML,  CSS,  JavaScript"
+        ],
+        [
+            "HTML,  CSS,  JavaScript,  Passport,  Node.js,  Sequelize,  MySQL,  Express.js"
+        ]
+    ],
+    "description": [
+        ".sombra is an interactive gallery built in Unity and part of Claire's undergraduate thesis. An installation piece, it showcases self portraits designed by artists during virtual reality demonstrations she organized, where each participant learned how to create 3D objects in VR. Claire organized, designed, and coded each part of this project.",
+        "Pre, developed with the Funding Founding company, is a live event app designed for business plan competitions. Users invest preMoney in startups during the pitch presentations, and then yield a return of the currency when the results are announced. Claire acted as a UX and gamification designer for the app, wireframing and developing methods for accessible user onboarding and engagement. As a Production Lead for the company, she assisted in designing the app's guides and materials and branded automated email design.",
+        "VRweld is a technician training learning tool designed for Oculus devices, that simulates all four major welding processes. As a Project Manager, Claire directed development for all aspects of the VRweld, including contract design, sprint schedule development, prototyping, user testing, and then distribution. Claire also managed production of the marketing website, developing the base framework of the site in WordPress and then managing the introduction of marketing pages and features.",
+        "UMEWE was a project developed during the University of Pennsylvania's UPenn LPS Full Stack Bootcamp. It helps users find restaurants between two locations, filtering results according to input fields. The first project of the course, Claire directed the introduction of the Bing Maps API and Restuarant location visualization. She participated elsewhere assisting with all other specified technologies with her team to make it a successful web application.",
+        "The What's My Weather? web application is a classic example of web app API integration, using the OpenWeather API to develop a successful frontend experience.",
+        "The CSC-Visualizer was a project developed during the University of Pennsylvania's Upenn LPS Full Stack Bootcamp. It acts as a toolset for researchers to navigate the College Score Card API, distributed by the US Department of Education. Users are able to search for a school and then visualize valuable statistics found in the Department of Ed's extensive database. This app uses the Passport credentialed login technology to enable users to save previous schools into a personalized lsit and revisit them later on login. Claire directed backend production, enabling a MySQL database of users and their saved schools." 
+    ],
+    "links": [
+        [
+            "https://vimeo.com/315569123"
+        ],
+        [
+            "https://pre.vc"
+        ],
+        [
+            "http://vrweld.com/demo"
+        ],
+        [
+            "https://oxfordblucher.github.io/Restaurant-Roulette",
+            "https://github.com/oxfordblucher/Restaurant-Roulette"
+        ],
+        [
+            "https://clairevita.github.io/WeatherApp",
+            "https://github.com/clairevita/WeatherApp"
+        ],
+        [
+            "https://scorecard-visualizer.herokuapp.com",
+            "https://github.com/J35RL4R/college-score-card-visualizer"
+        ]
+    ],
+    "semantic": [
+        [
+            "Video Demo"
+        ],
+        [
+            "Pre.vc"
+        ],
+        [
+            "vrweld.com"
+        ],
+        [
+            "Deployed Site",
+            "Github Repository"
+        ],
+        [
+            "Deployed Site",
+            "Github Repository"
+        ],
+        [
+            "Deployed Site",
+            "Github Repository"
+        ]
+    ]
+}

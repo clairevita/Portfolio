@@ -64,7 +64,7 @@ const portfolios = [
     }
 ]
 
-for (i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i++) {
     $("#portfolioimg" + i).attr("val", i);
     $("#portfolioimg" + i).click(function () {
         $('.modal').modal('show')

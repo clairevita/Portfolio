@@ -1,0 +1,21 @@
+section {
+    visibility: visible;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 4s;
+}
+.modal-content{
+    border-radius: 0px;
+}
+.modal-footer{
+    background-color:  #faed27;
+}
+
+.exampleImage{
+    width: 100%;
+}
+.my-modal {
+    min-width: 90%;
+}
+.text-center {
+    justify-content: center;
+}
