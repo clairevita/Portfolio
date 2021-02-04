@@ -10,8 +10,6 @@ import { Modal, Button } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
 
-
-
 function ModalFrame(props) {
     const { title, technologies, description, links, semantic, i } = useContext(ModalState);
     const image = require('./images/' + i + '.png');
@@ -26,7 +24,7 @@ function ModalFrame(props) {
                 <Modal.Title id="contained-modal-title-vcenter"
                     elementType="StyledAsH1"
                 >
-                    {title}
+                    <strong>{title}</strong>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -38,22 +36,18 @@ function ModalFrame(props) {
                         <ul><li>{description}</li></ul>
                         <h5><strong>Links:</strong></h5>
                         <ul>
-                        {links.map(function (links, i) {
-                            let linkSemantic = semantic[i]
-                            return <li><a href={links} target="_blank">{linkSemantic}</a></li>;
-                        })}
+                            {links.map(function (links, i) {
+                                let linkSemantic = semantic[i]
+                                return <li><a href={links} target="_blank">{linkSemantic}</a></li>;
+                            })}
                         </ul>
 
                     </div>
                     <div className="col d-none d-lg-block"><img className="exampleImage" src={image} width="100"></img></div>
-
-
-
                 </div>
-
             </Modal.Body>
-            <Modal.Footer>
-                <Button className="btn btn-default btn-lg btn-block" onClick={props.onHide}>Close</Button>
+            <Modal.Footer className="text-center" onClick={props.onHide}>
+                <h4><strong>Close</strong></h4>
             </Modal.Footer>
         </Modal>
     );
@@ -73,7 +67,7 @@ function Section() {
         setModalContext({
             title: PortfolioItems.title[val],
             technologies: PortfolioItems.technologies[val][0],
-            description: "",
+            description: PortfolioItems.description[val],
             links: PortfolioItems.links[val],
             semantic: PortfolioItems.semantic[val],
             i: val

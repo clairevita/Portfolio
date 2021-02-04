@@ -16,3 +16,6 @@ section {
 .my-modal {
     min-width: 90%;
 }
+.text-center {
+    justify-content: center;
+}
