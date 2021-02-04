@@ -1,11 +1,17 @@
 import React, { useState, useContext } from 'react';
 import './Section.css';
 import Card0 from './SectionCards/Card0';
+import Image0 from './images/0.png';
 import Card1 from './SectionCards/Card1';
+import Image1 from './images/1.png';
 import Card2 from './SectionCards/Card2';
+import Image2 from './images/2.png';
 import Card3 from './SectionCards/Card3';
+import Image3 from './images/3.png';
 import Card4 from './SectionCards/Card4';
+import Image4 from './images/4.png';
 import Card5 from './SectionCards/Card5';
+import Image5 from './images/5.png';
 import { Modal } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
