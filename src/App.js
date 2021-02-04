@@ -6,7 +6,6 @@ import Section from './components/Section';
 
 function App() {
 
-
   return (
     <div>
       <Nav />
@@ -17,7 +16,6 @@ function App() {
 
   );
    
-
 }
 
 export default App;
