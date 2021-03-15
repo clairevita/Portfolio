@@ -10,25 +10,25 @@
     ],
     "technologies": [
         [
-            "Unity Game Engine",  "C#",  "Javascript"
+            "Project Direction", "Unity Game Engine",  "C#",  "Javascript"
         ],
         [
-            "HTML",  "CSS",  "FFMPEG"
+            "Project Management", "User Experience Design", "HTML",  "CSS"
         ],
         [
-            "HTML",  "CSS",  "PHP",  "MySQL",  "WordPress",  "Unity Game Engine"
-        ],
-        [
-            "HTML",  "CSS",  "JavaScript",  "Bing Maps API",  "Zomato API",  "Geocoding API"
+            "Project Management", "User Experience Design", "HTML",  "CSS",  "PHP",  "MySQL",  "WordPress",  "Unity Game Engine"
         ],
         [
             "HTML",  "CSS",  "JavaScript"
         ],
         [
+            "Project Management", "HTML",  "CSS",  "JavaScript"
+        ],
+        [
             "HTML",  "CSS",  "JavaScript",  "Passport",  "Node.js",  "Sequelize",  "MySQL",  "Express.js"
         ], 
         [
-            "HTML",  "CSS",  "JavaScript", "React", "Google Authenticator",  "Node.js",  "Sequelize",  "MySQL",  "Express.js"
+            "Project Management", "HTML",  "CSS",  "JavaScript", "React", "Google Authenticator",  "Node.js",  "Sequelize",  "MySQL",  "Express.js"
         ]
     ],
     "description": [
@@ -38,7 +38,7 @@
         "UMEWE was a project developed during the University of Pennsylvania's UPenn LPS Full Stack Bootcamp. It helps users find restaurants between two locations, filtering results according to input fields. The first project of the course, Claire directed the introduction of the Bing Maps API and Restuarant location visualization. She participated elsewhere assisting with all other specified technologies with her team to make it a successful web application.",
         "The What's My Weather? web application is a classic example of web app API integration, using the OpenWeather API to develop a successful frontend experience.",
         "The CSC-Visualizer was a project developed during the University of Pennsylvania's Upenn LPS Full Stack Bootcamp. It acts as a toolset for researchers to navigate the College Score Card API, distributed by the US Department of Education. Users are able to search for a school and then visualize valuable statistics found in the Department of Ed's extensive database. This app uses the Passport credentialed login technology to enable users to save previous schools into a personalized lsit and revisit them later on login. Claire directed backend production, enabling a MySQL database of users and their saved schools.",
-        "" 
+        "Uguale is a simple math web application that tries to solve the challenges of digital math elearning solutions. The application enables users to solve questions right to left, draw notes around the equation, and style the site according to their preference. Claire assumed a project management role, establishing goals and responsibilities. She lead development of the applications backend, establishing the database connectionm, authenticated login, and game logic for challenge scaling. Claire established data visualization for the dashboard experience. She also designed all interactive canvas functions." 
     ],
     "links": [
         [

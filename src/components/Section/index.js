@@ -48,7 +48,7 @@ function ModalFrame(props) {
                 <Modal.Title id="contained-modal-title-vcenter"
                     elementType="StyledAsH1"
                 >
-                    <strong>{title}</strong>
+                    <h2 className="text-center"><strong>{title}</strong></h2>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -57,7 +57,7 @@ function ModalFrame(props) {
                         <h4><strong>Technical Contributions:</strong></h4>
                         <ul><li><h5>
                         {technologies.map(function (tech, i){
-                            return <Badge className='mx-1'pill variant="info">{tech}</Badge> 
+                            return <Badge id="techBadge" className='mx-1'pill variant="info">{tech}</Badge> 
                         }
                         
                         )
@@ -72,10 +72,11 @@ function ModalFrame(props) {
                                 return <li><h5><a href={links} target="_blank">{linkSemantic}</a></h5></li>;
                             })}
                         </ul>
+                        <hr></hr>
 
                     </div>
 
-                    <div className="col-lg-6"><a href={links[0]}><img className="exampleImage" src={image} fluid></img></a></div>
+                    <div className="col-lg-6"><a href={links[0]}><img className="exampleImage" id="exampleImage" src={image} fluid></img></a></div>
                     </div>
               <hr></hr>
             </Modal.Body>
