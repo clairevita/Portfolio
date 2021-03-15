@@ -14,4 +14,5 @@ const Card1 = ({ onClick }) => (
         </div>
     )
 
+    
 export default Card1;

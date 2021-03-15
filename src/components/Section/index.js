@@ -99,12 +99,12 @@ function Section() {
         <section>
             <div className="mw-100 container">
                 <div className="row">
-                    <Card0 onClick={() => { handleClick(0) }} />
-                    <Card1 onClick={() => { handleClick(1) }} />
-                    <Card2 onClick={() => { handleClick(2) }} />
-                    <Card3 onClick={() => { handleClick(3) }} />
-                    <Card4 onClick={() => { handleClick(4) }} />
                     <Card5 onClick={() => { handleClick(5) }} />
+                    <Card4 onClick={() => { handleClick(4) }} />
+                    <Card3 onClick={() => { handleClick(3) }} />
+                    <Card2 onClick={() => { handleClick(2) }} />
+                    <Card1 onClick={() => { handleClick(1) }} />
+                    <Card0 onClick={() => { handleClick(0) }} />
                 </div>
             </div>
             <ModalState.Provider value={ModalContext}>
