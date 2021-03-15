@@ -12,6 +12,8 @@ import Card4 from './SectionCards/Card4';
 import Image4 from './images/4.png';
 import Card5 from './SectionCards/Card5';
 import Image5 from './images/5.png';
+import Card6 from './SectionCards/Card6';
+import Image6 from './images/6.png';
 import { Modal } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
@@ -99,6 +101,7 @@ function Section() {
         <section>
             <div className="mw-100 container">
                 <div className="row">
+                    <Card6 onClick={() => { handleClick(6) }} />
                     <Card5 onClick={() => { handleClick(5) }} />
                     <Card4 onClick={() => { handleClick(4) }} />
                     <Card3 onClick={() => { handleClick(3) }} />
