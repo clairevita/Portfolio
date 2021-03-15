@@ -14,7 +14,7 @@ import Card5 from './SectionCards/Card5';
 import Image5 from './images/5.png';
 import Card6 from './SectionCards/Card6';
 import Image6 from './images/6.png';
-import { Modal } from 'react-bootstrap';
+import { Modal, Badge } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
 
@@ -55,7 +55,11 @@ function ModalFrame(props) {
                 <div className="row">
                     <div className="col">
                         <h5><strong>Technical Contributions:</strong></h5>
-                        <ul><li>{technologies}</li></ul>
+                        <ul><li>
+                        {technologies.map(function (tech, i){
+                            return <Badge pill variant="info">{tech}</Badge>
+                        })}
+                        </li></ul>
                         <h5><strong>Description:</strong></h5>
                         <ul><li>{description}</li></ul>
                         <h5><strong>Links:</strong></h5>
@@ -90,7 +94,7 @@ function Section() {
     function handleClick(val) {
         setModalContext({
             title: PortfolioItems.title[val],
-            technologies: PortfolioItems.technologies[val][0],
+            technologies: PortfolioItems.technologies[val],
             description: PortfolioItems.description[val],
             links: PortfolioItems.links[val],
             semantic: PortfolioItems.semantic[val],
