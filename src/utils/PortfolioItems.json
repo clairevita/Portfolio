@@ -5,7 +5,8 @@
         "VRweld, 2020",
         "UMEWE, 2020",
         "What's My Weather?, 2020",
-        "CSC-Visualizer, 2020"
+        "CSC-Visualizer, 2020",
+        "Uguale, 2021"
     ],
     "technologies": [
         [
@@ -25,6 +26,9 @@
         ],
         [
             "HTML,  CSS,  JavaScript,  Passport,  Node.js,  Sequelize,  MySQL,  Express.js"
+        ], 
+        [
+            "HTML,  CSS,  JavaScript, React, Google Authenticator,  Node.js,  Sequelize,  MySQL,  Express.js"
         ]
     ],
     "description": [
@@ -33,7 +37,8 @@
         "VRweld is a technician training learning tool designed for Oculus devices, that simulates all four major welding processes. As a Project Manager, Claire directed development for all aspects of the VRweld, including contract design, sprint schedule development, prototyping, user testing, and then distribution. Claire also managed production of the marketing website, developing the base framework of the site in WordPress and then managing the introduction of marketing pages and features.",
         "UMEWE was a project developed during the University of Pennsylvania's UPenn LPS Full Stack Bootcamp. It helps users find restaurants between two locations, filtering results according to input fields. The first project of the course, Claire directed the introduction of the Bing Maps API and Restuarant location visualization. She participated elsewhere assisting with all other specified technologies with her team to make it a successful web application.",
         "The What's My Weather? web application is a classic example of web app API integration, using the OpenWeather API to develop a successful frontend experience.",
-        "The CSC-Visualizer was a project developed during the University of Pennsylvania's Upenn LPS Full Stack Bootcamp. It acts as a toolset for researchers to navigate the College Score Card API, distributed by the US Department of Education. Users are able to search for a school and then visualize valuable statistics found in the Department of Ed's extensive database. This app uses the Passport credentialed login technology to enable users to save previous schools into a personalized lsit and revisit them later on login. Claire directed backend production, enabling a MySQL database of users and their saved schools." 
+        "The CSC-Visualizer was a project developed during the University of Pennsylvania's Upenn LPS Full Stack Bootcamp. It acts as a toolset for researchers to navigate the College Score Card API, distributed by the US Department of Education. Users are able to search for a school and then visualize valuable statistics found in the Department of Ed's extensive database. This app uses the Passport credentialed login technology to enable users to save previous schools into a personalized lsit and revisit them later on login. Claire directed backend production, enabling a MySQL database of users and their saved schools.",
+        "" 
     ],
     "links": [
         [
@@ -56,6 +61,10 @@
         [
             "https://scorecard-visualizer.herokuapp.com",
             "https://github.com/J35RL4R/college-score-card-visualizer"
+        ],
+        [
+            "https://uguale.herokuapp.com/",
+            "https://github.com/clairevita/Portfolio"
         ]
     ],
     "semantic": [
@@ -67,6 +76,10 @@
         ],
         [
             "vrweld.com"
+        ],
+        [
+            "Deployed Site",
+            "Github Repository"
         ],
         [
             "Deployed Site",
