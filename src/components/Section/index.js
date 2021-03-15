@@ -53,7 +53,7 @@ function ModalFrame(props) {
             </Modal.Header>
             <Modal.Body>
                 <div className="row">
-                    <div className="col">
+                    <div className="col-lg-6">
                         <h4><strong>Technical Contributions:</strong></h4>
                         <ul><li><h5>
                         {technologies.map(function (tech, i){
@@ -74,8 +74,10 @@ function ModalFrame(props) {
                         </ul>
 
                     </div>
-                    <div className="col d-none d-lg-block"><a href={links[0]}><img className="exampleImage" src={image} width="100"></img></a></div>
-                </div>
+
+                    <div className="col-lg-6"><a href={links[0]}><img className="exampleImage" src={image} fluid></img></a></div>
+                    </div>
+              <hr></hr>
             </Modal.Body>
             <Modal.Footer className="text-center" onClick={props.onHide}>
                 <h4><strong>Close</strong></h4>
