@@ -54,24 +54,27 @@ function ModalFrame(props) {
             <Modal.Body>
                 <div className="row">
                     <div className="col">
-                        <h5><strong>Technical Contributions:</strong></h5>
-                        <ul><li>
+                        <h4><strong>Technical Contributions:</strong></h4>
+                        <ul><li><h5>
                         {technologies.map(function (tech, i){
-                            return <Badge pill variant="info">{tech}</Badge>
-                        })}
-                        </li></ul>
-                        <h5><strong>Description:</strong></h5>
-                        <ul><li>{description}</li></ul>
-                        <h5><strong>Links:</strong></h5>
+                            return <Badge className='mx-1'pill variant="info">{tech}</Badge> 
+                        }
+                        
+                        )
+                        } 
+                        </h5></li></ul>
+                        <h4><strong>Description:</strong></h4>
+                        <ul><li><h5>{description}</h5></li></ul>
+                        <h4><strong>Links:</strong></h4>
                         <ul>
                             {links.map(function (links, i) {
                                 let linkSemantic = semantic[i]
-                                return <li><a href={links} target="_blank">{linkSemantic}</a></li>;
+                                return <li><h5><a href={links} target="_blank">{linkSemantic}</a></h5></li>;
                             })}
                         </ul>
 
                     </div>
-                    <div className="col d-none d-lg-block"><img className="exampleImage" src={image} width="100"></img></div>
+                    <div className="col d-none d-lg-block"><a href={links[0]}><img className="exampleImage" src={image} width="100"></img></a></div>
                 </div>
             </Modal.Body>
             <Modal.Footer className="text-center" onClick={props.onHide}>
