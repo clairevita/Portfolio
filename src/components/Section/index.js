@@ -21,19 +21,19 @@ import PortfolioItems from '../../utils/PortfolioItems.json';
 function ModalFrame(props) {
     const { title, technologies, description, links, semantic, i } = useContext(ModalState);
     let image;
-    if (i == 0) {
+    if (i === 0) {
         image = Image0;
-    } else if (i == 1) {
+    } else if (i === 1) {
         image = Image1;
-    } else if (i == 2) {
+    } else if (i === 2) {
         image = Image2;
-    } else if (i == 3) {
+    } else if (i === 3) {
         image = Image3;
-    } else if (i == 4) {
+    } else if (i === 4) {
         image = Image4;
-    } else if (i == 5){
+    } else if (i === 5){
         image = Image5;
-    } else if (i == 6){
+    } else if (i === 6){
         image = Image6;
     }
 
@@ -54,17 +54,17 @@ function ModalFrame(props) {
             <Modal.Body>
                 <div className="row">
                     <div className="col-lg-6">
-                        <h4><strong>Technical Contributions:</strong></h4>
-                        <ul><li><h5>
+                        <h4><strong>Contributions:</strong></h4>
+                        <ul><li><h4 className="text-center">
                         {technologies.map(function (tech, i){
                             return <Badge id="techBadge" className='mx-1'pill variant="info">{tech}</Badge> 
                         }
                         
                         )
                         } 
-                        </h5></li></ul>
+                        </h4></li></ul>
                         <h4><strong>Description:</strong></h4>
-                        <ul><li><h5>{description}</h5></li></ul>
+                        <ul><li><h5 id="description">{description}</h5></li></ul>
                         <h4><strong>Links:</strong></h4>
                         <ul>
                             {links.map(function (links, i) {
@@ -76,7 +76,7 @@ function ModalFrame(props) {
 
                     </div>
 
-                    <div className="col-lg-6"><a href={links[0]}><img className="exampleImage" id="exampleImage" src={image} fluid></img></a></div>
+                    <div className="col-lg-6"><a href={links[0]} target="_blank"><img className="exampleImage" id="exampleImage" src={image} fluid></img></a></div>
                     </div>
               <hr></hr>
             </Modal.Body>
