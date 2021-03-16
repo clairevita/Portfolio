@@ -8,10 +8,10 @@ function Main() {
         <main role="main" className="container">
             
             <div className="row">
-                <div className="col" m={3}>
-                <img className="mt-5 d-none d-lg-block" width="100%" src={claire}></img>
+                <div className="col d-none d-lg-block">
+                <img className="mt-5" width="120%" src={claire}></img>
                 </div>
-                <div className="mt-5 col-9">
+                <div className="mt-5 mx-5 col-9">
                     <h1 className="display-4" id="suit">Claire Vita</h1>
                     <br></br>
                     <p className="lead">Claire is a professional in the field of gamified experience development. Her designs
