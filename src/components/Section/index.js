@@ -14,6 +14,8 @@ import Card5 from './SectionCards/Card5';
 import Image5 from './images/5.png';
 import Card6 from './SectionCards/Card6';
 import Image6 from './images/6.png';
+import Card7 from './SectionCards/Card7';
+import Image7 from './images/7.png';
 import { Modal, Badge } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
@@ -35,6 +37,8 @@ function ModalFrame(props) {
         image = Image5;
     } else if (i === 6){
         image = Image6;
+    } else if (i === 7){
+        image = Image7;
     }
 
     return (
@@ -113,6 +117,7 @@ function Section() {
         <section>
             <div className="mw-100 container">
                 <div className="row">
+                    <Card7 onClick={() => { handleClick(7) }} />
                     <Card6 onClick={() => { handleClick(6) }} />
                     <Card5 onClick={() => { handleClick(5) }} />
                     <Card4 onClick={() => { handleClick(4) }} />
