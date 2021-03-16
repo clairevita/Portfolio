@@ -1,25 +1,33 @@
 import React from 'react';
 import "./Main.css";
-import github from './images/github.png'
-import linkedin from './images/linkedin.png'
+import github from './images/github.png';
+import linkedin from './images/linkedin.png';
+import claire from './images/profile-2.png';
 function Main() {
     return (
         <main role="main" className="container">
+            
             <div className="row">
-                <div className="mt-5 col">
-                    <h1 className="display-4" id="suit"><span>&#127165;</span> Claire Vita</h1>
+                <div className="col d-none d-lg-block">
+                <img className="mt-5" width="120%" src={claire}></img>
+                </div>
+                <div className="mt-5 mx-5 col-9">
+                    <h1 className="display-4" id="suit">Claire Vita</h1>
                     <br></br>
                     <p className="lead">Claire is a professional in the field of gamified experience development. Her designs
                     span mobile, web, and virtual reality platforms. As a project manager, she elevates teams and
                     supports projects to delivery, come hell or highwater.
                 </p>
-                    <div className="d-flex justify-content-center">
+
+                </div>
+            </div>
+            <div className="mt-5 row justify-content-center">
+            <div className="d-flex justify-content-center">
                         <a href="https://github.com/clairevita" target="_blank"><img src={github} id="socialIcon"
                             className="mx-4"></img></a>
                         <a href="https://www.linkedin.com/in/clairevita/" target="_blank"><img src={linkedin}
                             id="socialIcon" className="mx-4"></img></a>
                     </div>
-                </div>
             </div>
         </main>
     );

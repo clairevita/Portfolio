@@ -12,25 +12,33 @@ import Card4 from './SectionCards/Card4';
 import Image4 from './images/4.png';
 import Card5 from './SectionCards/Card5';
 import Image5 from './images/5.png';
-import { Modal } from 'react-bootstrap';
+import Card6 from './SectionCards/Card6';
+import Image6 from './images/6.png';
+import Card7 from './SectionCards/Card7';
+import Image7 from './images/7.png';
+import { Modal, Badge } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
 
 function ModalFrame(props) {
     const { title, technologies, description, links, semantic, i } = useContext(ModalState);
     let image;
-    if (i == 0) {
+    if (i === 0) {
         image = Image0;
-    } else if (i == 1) {
+    } else if (i === 1) {
         image = Image1;
-    } else if (i == 2) {
+    } else if (i === 2) {
         image = Image2;
-    } else if (i == 3) {
+    } else if (i === 3) {
         image = Image3;
-    } else if (i == 4) {
+    } else if (i === 4) {
         image = Image4;
-    } else {
+    } else if (i === 5){
         image = Image5;
+    } else if (i === 6){
+        image = Image6;
+    } else if (i === 7){
+        image = Image7;
     }
 
     return (
@@ -44,27 +52,37 @@ function ModalFrame(props) {
                 <Modal.Title id="contained-modal-title-vcenter"
                     elementType="StyledAsH1"
                 >
-                    <strong>{title}</strong>
+                    <h2 className="text-center"><strong>{title}</strong></h2>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <div className="row">
-                    <div className="col">
-                        <h5><strong>Technical Contributions:</strong></h5>
-                        <ul><li>{technologies}</li></ul>
-                        <h5><strong>Description:</strong></h5>
-                        <ul><li>{description}</li></ul>
-                        <h5><strong>Links:</strong></h5>
+                    <div className="col-lg-6">
+                        <h4><strong>Contributions:</strong></h4>
+                        <ul><li><h4 className="text-center">
+                        {technologies.map(function (tech, i){
+                            return <Badge id="techBadge" className='mx-1'pill variant="info">{tech}</Badge> 
+                        }
+                        
+                        )
+                        } 
+                        </h4></li></ul>
+                        <h4><strong>Description:</strong></h4>
+                        <ul><li><h5 id="description">{description}</h5></li></ul>
+                        <h4><strong>Links:</strong></h4>
                         <ul>
                             {links.map(function (links, i) {
                                 let linkSemantic = semantic[i]
-                                return <li><a href={links} target="_blank">{linkSemantic}</a></li>;
+                                return <li><h5><a href={links} target="_blank">{linkSemantic}</a></h5></li>;
                             })}
                         </ul>
+                        <hr></hr>
 
                     </div>
-                    <div className="col d-none d-lg-block"><img className="exampleImage" src={image} width="100"></img></div>
-                </div>
+
+                    <div className="col-lg-6"><a href={links[0]} target="_blank"><img className="exampleImage" id="exampleImage" src={image} fluid></img></a></div>
+                    </div>
+              <hr></hr>
             </Modal.Body>
             <Modal.Footer className="text-center" onClick={props.onHide}>
                 <h4><strong>Close</strong></h4>
@@ -86,7 +104,7 @@ function Section() {
     function handleClick(val) {
         setModalContext({
             title: PortfolioItems.title[val],
-            technologies: PortfolioItems.technologies[val][0],
+            technologies: PortfolioItems.technologies[val],
             description: PortfolioItems.description[val],
             links: PortfolioItems.links[val],
             semantic: PortfolioItems.semantic[val],
@@ -99,6 +117,8 @@ function Section() {
         <section>
             <div className="mw-100 container">
                 <div className="row">
+                    <Card7 onClick={() => { handleClick(7) }} />
+                    <Card6 onClick={() => { handleClick(6) }} />
                     <Card5 onClick={() => { handleClick(5) }} />
                     <Card4 onClick={() => { handleClick(4) }} />
                     <Card3 onClick={() => { handleClick(3) }} />
