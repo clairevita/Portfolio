@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Card.css';
 import image from '../../images/6.png';
-const Card5 = ({ onClick }) => (
+const Card6 = ({ onClick }) => (
 
     <div onClick={onClick} className="col-lg-6 px-0" id="portfolioimg5">
         <div className="card bg-dark text-white rounded-0">
@@ -16,4 +16,4 @@ const Card5 = ({ onClick }) => (
 )
 
 
-export default Card5;
+export default Card6;
