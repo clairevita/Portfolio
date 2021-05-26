@@ -36,6 +36,7 @@
     background-color: #faed27;
     color:black;
     padding-top: 25%;
+    cursor: pointer;
   }
 
   .card-img-overlay:hover {
