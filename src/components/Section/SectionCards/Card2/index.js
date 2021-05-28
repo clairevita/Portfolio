@@ -9,7 +9,7 @@ const Card2 = ({ onClick }) => (
                 alt="A screenshot from a VR welding simulator game.">
             </img>
             <div className="card-img-overlay">
-                <h1 className="center display-4">VRweld, 2020</h1>
+            <h3 className="center">VRweld, 2020</h3>
             </div>
         </div>
     </div>

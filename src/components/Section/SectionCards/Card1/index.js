@@ -8,7 +8,7 @@ const Card1 = ({ onClick }) => (
             <img src={image} className="card-img"
                     alt="Three cellphone screenshots are displayed. Each show images of a Fin Tech app, for gamified pitch competitions.">
                 </img><div className="card-img-overlay">
-                    <h1 className="center display-4">Funding Founding, 2019</h1>
+                <h3 className="center">Funding Founding, 2019</h3>
                 </div>
             </div>
         </div>

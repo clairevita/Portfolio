@@ -19,6 +19,8 @@ import Image7 from './images/7.png';
 import { Modal, Badge } from 'react-bootstrap';
 import ModalState from '../../utils/ModalState';
 import PortfolioItems from '../../utils/PortfolioItems.json';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
 
 function ModalFrame(props) {
     const { title, technologies, description, links, semantic, i } = useContext(ModalState);
@@ -33,11 +35,11 @@ function ModalFrame(props) {
         image = Image3;
     } else if (i === 4) {
         image = Image4;
-    } else if (i === 5){
+    } else if (i === 5) {
         image = Image5;
-    } else if (i === 6){
+    } else if (i === 6) {
         image = Image6;
-    } else if (i === 7){
+    } else if (i === 7) {
         image = Image7;
     }
 
@@ -60,12 +62,12 @@ function ModalFrame(props) {
                     <div className="col-lg-6">
                         <h4><strong>Contributions:</strong></h4>
                         <ul><li><h4 className="text-center">
-                        {technologies.map(function (tech, i){
-                            return <Badge id="techBadge" className='mx-1'pill variant="info">{tech}</Badge> 
-                        }
-                        
-                        )
-                        } 
+                            {technologies.map(function (tech, i) {
+                                return <Badge id="techBadge" className='mx-1' pill variant="info">{tech}</Badge>
+                            }
+
+                            )
+                            }
                         </h4></li></ul>
                         <h4><strong>Description:</strong></h4>
                         <ul><li><h5 id="description">{description}</h5></li></ul>
@@ -81,8 +83,8 @@ function ModalFrame(props) {
                     </div>
 
                     <div className="col-lg-6"><a href={links[0]} target="_blank"><img className="exampleImage" id="exampleImage" src={image} fluid></img></a></div>
-                    </div>
-              <hr></hr>
+                </div>
+                <hr></hr>
             </Modal.Body>
             <Modal.Footer className="text-center" onClick={props.onHide}>
                 <h4><strong>Close</strong></h4>
@@ -116,15 +118,35 @@ function Section() {
     return (
         <section>
             <div className="mw-100 container">
+                <Tabs defaultActiveKey="profile">
+                    <Tab eventKey="home" class="panel" title="Home">
+                        <div id="tabs">
+                            <Card7 onClick={() => { handleClick(7) }} />
+                            <Card6 onClick={() => { handleClick(6) }} />
+                            <Card5 onClick={() => { handleClick(5) }} />
+                            <Card4 onClick={() => { handleClick(4) }} />
+                            <Card3 onClick={() => { handleClick(3) }} />
+                        </div>
+                    </Tab>
+                    <Tab eventKey="profile" class="panel" title="Profile">
+                        <div id="tabs">
+
+                        </div>
+
+                    </Tab>
+                    <Tab eventKey="contact" class="panel" title="Contact">
+                        <div id="tabs">
+                            <Card2 onClick={() => { handleClick(2) }} />
+                            <Card1 onClick={() => { handleClick(1) }} />
+                            <Card0 onClick={() => { handleClick(0) }} />
+                        </div>
+
+                    </Tab>
+                </Tabs>
                 <div className="row">
-                    <Card7 onClick={() => { handleClick(7) }} />
-                    <Card6 onClick={() => { handleClick(6) }} />
-                    <Card5 onClick={() => { handleClick(5) }} />
-                    <Card4 onClick={() => { handleClick(4) }} />
-                    <Card3 onClick={() => { handleClick(3) }} />
-                    <Card2 onClick={() => { handleClick(2) }} />
-                    <Card1 onClick={() => { handleClick(1) }} />
-                    <Card0 onClick={() => { handleClick(0) }} />
+
+
+
                 </div>
             </div>
             <ModalState.Provider value={ModalContext}>

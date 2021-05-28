@@ -8,7 +8,7 @@ const Card0 = ({ onClick }) => (
             <img src={image} className="card-img"
                 alt="Image of a Unity Game. A pink cloud hosts a variety of abstract 3D objects."></img>
             <div className="card-img-overlay">
-                <h1 className="center display-4">.sombra, 2017</h1>
+            <h3 className="center">.sombra, 2017</h3>
             </div>
         </div>
     </div>

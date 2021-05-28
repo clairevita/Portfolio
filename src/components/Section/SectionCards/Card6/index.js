@@ -9,7 +9,7 @@ const Card6 = ({ onClick }) => (
                 alt="A screenshot from the Uguale app. The user input for the equation 28 + 16.">
             </img>
             <div className="card-img-overlay">
-                <h1 className="center display-4">Uguale, 2021</h1>
+            <h3 className="center">Uguale, 2021</h3>
             </div>
         </div>
     </div>

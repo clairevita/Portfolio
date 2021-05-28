@@ -9,7 +9,7 @@ const Card5 = ({ onClick }) => (
                 alt="A screenshot from the CSC-Visualizer app. It showcases visualized university statistics for Harvard.">
             </img>
             <div className="card-img-overlay">
-                <h1 className="center display-4">CSC-Visualizer, 2020</h1>
+            <h3 className="center">CSC-Visualizer, 2020</h3>
             </div>
         </div>
     </div>

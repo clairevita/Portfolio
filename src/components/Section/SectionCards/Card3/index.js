@@ -9,7 +9,7 @@ const Card3 = ({ onClick }) => (
                 alt="A screenshot from the UMEWE web app. It consists of two address inputs and restaurant information inputs">
             </img>
             <div className="card-img-overlay">
-                <h1 className="center display-4">UMEWE, 2020</h1>
+            <h3 className="center">UMEWE, 2020</h3>
             </div>
         </div>
     </div>

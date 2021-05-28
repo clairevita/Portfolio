@@ -9,7 +9,7 @@ const Card4 = ({ onClick }) => (
                 alt="A screenshot from the Work Day Scheduler web app. It shows a sections for each hour of the day colored according to if it has passed, current, or future.">
             </img>
             <div className="card-img-overlay">
-                <h1 className="center display-4">What's My Weather, 2020</h1>
+            <h3 className="center">What's My Weather, 2020</h3>
             </div>
         </div>
     </div>

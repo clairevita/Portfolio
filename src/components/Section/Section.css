@@ -37,3 +37,14 @@ ul {
     -webkit-filter: drop-shadow(0px 5px 5px rgb(150, 150, 150));
     filter:         drop-shadow(0px 5px 5px rgb(150, 150, 150)); 
   }
+
+.nav-tabs {
+      justify-content: center;
+      background-color: white;
+      margin-top: -14px;
+  }
+
+#tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
