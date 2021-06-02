@@ -3,7 +3,7 @@ import '../Card.css';
 import image from '../../images/0.png'
 const Card0 = ({ onClick }) => (
 
-    <div onClick={onClick} className="col-lg-3 px-0" id="portfolioimg0">
+    <div onClick={onClick} className="col-lg-6 mt-2" id="portfolioimg0">
         <div className="card bg-dark text-white rounded-0">
             <img src={image} className="card-img"
                 alt="Image of a Unity Game. A pink cloud hosts a variety of abstract 3D objects."></img>

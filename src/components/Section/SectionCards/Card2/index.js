@@ -3,7 +3,7 @@ import '../Card.css';
 import image from '../../images/2.png';
 const Card2 = ({ onClick }) => (
 
-    <div onClick={onClick} className="col-lg-3 px-0" id="portfolioimg2">
+    <div onClick={onClick} className="col-lg-6 mt-2" id="portfolioimg2">
         <div className="card bg-dark text-white rounded-0">
             <img src={image} className="card-img"
                 alt="A screenshot from a VR welding simulator game.">

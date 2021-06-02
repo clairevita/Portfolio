@@ -1,108 +1,14 @@
 {
     "title": [
-        ".Sombra, 2017",
-        "Funding Founding, 2019",
-        "VRweld, 2020",
-        "UMEWE, 2020",
-        "What's My Weather?, 2020",
-        "CSC-Visualizer, 2020",
-        "Uguale, 2021",
-        "VRsterilization, TBA"
+        "PTTI Graduation Live Stream, 2021", "preRound: Future Tech, 2019", "preRound: VR/AR, 2019",
+        "PTTI CEO Interview: Sherman McLeod, 2021", "PTTI Admissions Representative Interview, 2020", "PTTI Instructor Spotlight: Mike Sheldrake, 2020", "PTTI Student Spotlight: Jose Roberts, 2020",
+        "Visible Welding Camera, 2021", "What is VR Weld?, 2020", "How To Use The Pre App, 2019",
+        "How To Set Up an Adept Quattro, 2021", "How To Use A CNC Machine, 2020", "What Is Sterile Processing?, 2021"
     ],
-    "technologies": [
-        [
-            "Project Direction", "Unity Game Engine",  "C#",  "Javascript"
-        ],
-        [
-            "Project Management", "UX Design", "HTML",  "CSS"
-        ],
-        [
-            "Project Management", "UX Design", "HTML",  "CSS",  "PHP",  "MySQL",  "WordPress",  "Unity Game Engine"
-        ],
-        [
-            "Project Management", "HTML",  "CSS",  "JavaScript"
-        ],
-        [
-            "HTML",  "CSS",  "JavaScript"
-        ],
-        [
-            "HTML",  "CSS",  "JavaScript",  "Passport",  "Node.js",  "Sequelize",  "MySQL",  "Express.js"
-        ], 
-        [
-            "Project Management", "HTML",  "CSS",  "JavaScript", "React", "Google Authenticator",  "Node.js",  "Sequelize",  "MySQL",  "Express.js"
-        ],
-        [
-            "Project Direction", "UX Design"
-        ]
-    ],
-    "description": [
-        ".sombra is an interactive gallery built in Unity and part of Claire's undergraduate thesis. An installation piece, it showcases self portraits designed by artists during virtual reality demonstrations she organized, where each participant learned how to create 3D objects in VR. Claire organized, designed, and coded each part of this project.",
-        "Pre, developed with the Funding Founding company, is a live event app designed for business plan competitions. Users invest preMoney in startups during the pitch presentations, and then yield a return of the currency when the results are announced. Claire acted as a UX and gamification designer for the app, wireframing and developing methods for accessible user onboarding and engagement. As a Production Lead for the company, she assisted in designing the app's guides and materials and branded automated email design.",
-        "VRweld is a technician training learning tool designed for Oculus devices, that simulates all four major welding processes. As a Project Manager, Claire directed development for all aspects of the VRweld, including contract design, sprint schedule development, prototyping, user testing, and then distribution. Claire also managed production of the marketing website, developing the base framework of the site in WordPress and then managing the introduction of marketing pages and features.",
-        "UMEWE was a project developed during the University of Pennsylvania's UPenn LPS Full Stack Bootcamp. It helps users find restaurants between two locations, filtering results according to input fields. The first project of the course, Claire directed the introduction of the Bing Maps API and Restuarant location visualization. She participated elsewhere assisting with all other specified technologies with her team to make it a successful web application.",
-        "The What's My Weather? web application is a classic example of web app API integration, using the OpenWeather API to develop a successful frontend experience.",
-        "The CSC-Visualizer was a project developed during the University of Pennsylvania's Upenn LPS Full Stack Bootcamp. It acts as a toolset for researchers to navigate the College Score Card API, distributed by the US Department of Education. Users are able to search for a school and then visualize valuable statistics found in the Department of Ed's extensive database. This app uses the Passport credentialed login technology to enable users to save previous schools into a personalized lsit and revisit them later on login. Claire directed backend production, enabling a MySQL database of users and their saved schools.",
-        "Uguale is a simple math web application that tries to solve the challenges of digital math E-Learning solutions. This application enables users to solve questions right to left, draw notes around the equation, and style the site according to their preference. Claire assumed a project management role, establishing goals and responsibilities for the team. She lead development of the applications backend, establishing the database connection, authenticated login, and game logic for challenge scaling. Claire also introduced the data visualization for the dashboard experience. She designed all interactive canvas functions, utilizing a variety of APIs and original solutions.",
-        "VRsterilization is an E-Learning solution targeting the Sterile Processing Industry. Working with a variety of stakeholders and industry professionals, Claire has designed and developed a VR training methodology that prepares students beyond the expectations of the CRCST Certification exams. This project looks to train students to be professionally competitive Sterile Processing Technicians. More information to be released!" 
-    ],
-    "links": [
-        [
-            "https://vimeo.com/315569123"
-        ],
-        [
-            "https://pre.vc"
-        ],
-        [
-            "http://vrweld.com/demo"
-        ],
-        [
-            "https://oxfordblucher.github.io/Restaurant-Roulette",
-            "https://github.com/oxfordblucher/Restaurant-Roulette"
-        ],
-        [
-            "https://clairevita.github.io/WeatherApp",
-            "https://github.com/clairevita/WeatherApp"
-        ],
-        [
-            "https://scorecard-visualizer.herokuapp.com",
-            "https://github.com/J35RL4R/college-score-card-visualizer"
-        ],
-        [
-            "https://uguale.herokuapp.com/",
-            "https://github.com/clairevita/Portfolio"
-        ],
-        [
-            "https://clairevita.herokuapp.com/"
-        ]
-    ],
-    "semantic": [
-        [
-            "Video Demo"
-        ],
-        [
-            "Pre.vc"
-        ],
-        [
-            "vrweld.com"
-        ],
-        [
-            "Deployed Site",
-            "Github Repository"
-        ],
-        [
-            "Deployed Site",
-            "Github Repository"
-        ],
-        [
-            "Deployed Site",
-            "Github Repository"
-        ],
-        [
-            "Deployed Site",
-            "Github Repository"
-        ],
-        [
-            "TBA"
-        ]
+    "url": [
+        "https://www.youtube-nocookie.com/embed/8sOyDn5MjGk?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/nrYnAFNoA4c?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/_Frj4-MtTIo?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light",
+        "https://www.youtube-nocookie.com/embed/XSLY4DQD6tU?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/SpNZkZX0fZw?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/K5N0s3V9aQ8?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/kg2lP2gf0J4?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light",
+        "https://www.youtube-nocookie.com/embed/zdJaxL4kUPs?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/yOC1-ihzRQA?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/NdoKM2YFiik?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light",
+        "https://www.youtube-nocookie.com/embed/QFKBtx1aw3k?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/SucGK9LT0jQ?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light", "https://www.youtube-nocookie.com/embed/fWhgIXKjsUM?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&theme=light"
     ]
 }

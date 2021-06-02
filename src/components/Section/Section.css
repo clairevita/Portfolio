@@ -5,6 +5,8 @@ section {
 }
 .modal-content{
     border-radius: 0px;
+    margin-left: -65%;
+    
 }
 .modal-footer{
     background-color:  #faed27;
@@ -14,7 +16,10 @@ section {
     width: 100%;
 }
 .my-modal {
-    min-width: 90%;
+    min-width: 75%;
+}
+modal-dialog{
+    margin-right: 55%;
 }
 .text-center {
     justify-content: center;
@@ -24,7 +29,6 @@ ul {
 }
 #description{
     text-align: justify;
-
 }
 
 #techBadge:hover{
@@ -47,4 +51,5 @@ ul {
 #tabs {
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
 }
