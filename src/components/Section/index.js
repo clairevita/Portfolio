@@ -84,7 +84,19 @@ function Section() {
                     </Tab>
                     <Tab eventKey="all" class="panel" title="All">
                         <div id="tabs">
-
+                        <Card0 onClick={() => { handleClick(0) }} />
+                        <Card1 onClick={() => { handleClick(1) }} />
+                        <Card2 onClick={() => { handleClick(2) }} />
+                        <Card3 onClick={() => { handleClick(3) }} />
+                        <Card4 onClick={() => { handleClick(4) }} />
+                        <Card5 onClick={() => { handleClick(5) }} />
+                        <Card6 onClick={() => { handleClick(6) }} />
+                        <Card7 onClick={() => { handleClick(7) }} />
+                        <Card8 onClick={() => { handleClick(8) }} />
+                        <Card9 onClick={() => { handleClick(9) }} />
+                        <Card10 onClick={() => { handleClick(10) }} />
+                        <Card11 onClick={() => { handleClick(11) }} />
+                        <Card12 onClick={() => { handleClick(12) }} />
                         </div>
                     </Tab>
                 </Tabs>
