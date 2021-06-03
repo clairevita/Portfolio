@@ -2,11 +2,13 @@ section {
     visibility: visible;
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 4s;
+    
 }
 .modal-content{
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+    overflow: visible; 
 }
 .modal-footer{
     background-color:  #faed27;
@@ -49,7 +51,7 @@ ul {
   }
 iframe{
     display:block;
-    width: 100%;
+    width: 125%;
 }
 #tabs {
     display: flex;

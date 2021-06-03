@@ -49,7 +49,7 @@ function ModalFrame(props) {
         <Modal
             {...props}
         >
-            <iframe src={url} width={width * .85} height={height * .85} frameborder="0"></iframe>
+            <iframe src={url} height={height/1.4} width={width/1.4} allow="fullscreen;" frameborder="0" ></iframe>
         </Modal>
     );
 }
