@@ -5,11 +5,10 @@ const Card5 = ({ onClick }) => (
 
     <div onClick={onClick} className="col-lg-6 mt-2" id="portfolioimg5">
         <div className="card bg-dark text-white rounded-0">
-            <img src={image} className="card-img"
-                alt="A screenshot from the CSC-Visualizer app. It showcases visualized university statistics for Harvard.">
+            <img src={image} className="card-img">
             </img>
             <div className="card-img-overlay">
-            <h3 className="center">CSC-Visualizer, 2020</h3>
+            <h3 className="center">PTTI Instructor Spotlight, 2020</h3>
             </div>
         </div>
     </div>

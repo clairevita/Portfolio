@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import './Section.css';
 import Card0 from './SectionCards/Card0';
 import Card1 from './SectionCards/Card1';
@@ -19,14 +19,37 @@ import PortfolioItems from '../../utils/PortfolioItems.json';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+  }
+  
+  export function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  
+    useEffect(() => {
+      function handleResize() {
+        setWindowDimensions(getWindowDimensions());
+      }
+  
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+  
+    return windowDimensions;
+  }
+
 function ModalFrame(props) {
     const { title, url, i } = useContext(ModalState);
-
+    const {height, width} = useWindowDimensions();
     return (
         <Modal
-            {...props}          
+            {...props}
         >
-            <iframe src={url} width={window.innerWidth*.85} height={window.innerHeight*.85} frameborder="0"></iframe>              
+            <iframe src={url} width={width * .85} height={height * .85} frameborder="0"></iframe>
         </Modal>
     );
 }
@@ -40,7 +63,7 @@ function Section() {
     });
     function handleClick(val) {
         setModalContext({
-            title: PortfolioItems.title[val],   
+            title: PortfolioItems.title[val],
             url: PortfolioItems.url[val],
             i: val
         })
@@ -56,47 +79,47 @@ function Section() {
                             <Card0 onClick={() => { handleClick(0) }} />
                             <Card1 onClick={() => { handleClick(1) }} />
                             <Card2 onClick={() => { handleClick(2) }} />
-                            
+
                         </div>
                     </Tab>
                     <Tab eventKey="interview" class="panel" title="Interview">
                         <div id="tabs">
-                        <Card3 onClick={() => { handleClick(3) }} />
-                        <Card4 onClick={() => { handleClick(4) }} />
-                        <Card5 onClick={() => { handleClick(5) }} />
-                        <Card6 onClick={() => { handleClick(6) }} />
+                            <Card3 onClick={() => { handleClick(3) }} />
+                            <Card4 onClick={() => { handleClick(4) }} />
+                            <Card5 onClick={() => { handleClick(5) }} />
+                            <Card6 onClick={() => { handleClick(6) }} />
                         </div>
 
                     </Tab>
                     <Tab eventKey="product" class="panel" title="Product">
                         <div id="tabs">
-                        <Card7 onClick={() => { handleClick(7) }} />
-                        <Card8 onClick={() => { handleClick(8) }} />
-                        <Card9 onClick={() => { handleClick(9) }} />
+                            <Card7 onClick={() => { handleClick(7) }} />
+                            <Card8 onClick={() => { handleClick(8) }} />
+                            <Card9 onClick={() => { handleClick(9) }} />
                         </div>
                     </Tab>
                     <Tab eventKey="informational" class="panel" title="Informational">
                         <div id="tabs">
-                        <Card10 onClick={() => { handleClick(10) }} />
-                        <Card11 onClick={() => { handleClick(11) }} />
-                        <Card12 onClick={() => { handleClick(12) }} />
+                            <Card10 onClick={() => { handleClick(10) }} />
+                            <Card11 onClick={() => { handleClick(11) }} />
+                            <Card12 onClick={() => { handleClick(12) }} />
                         </div>
                     </Tab>
                     <Tab eventKey="all" class="panel" title="All">
                         <div id="tabs">
-                        <Card0 onClick={() => { handleClick(0) }} />
-                        <Card1 onClick={() => { handleClick(1) }} />
-                        <Card2 onClick={() => { handleClick(2) }} />
-                        <Card3 onClick={() => { handleClick(3) }} />
-                        <Card4 onClick={() => { handleClick(4) }} />
-                        <Card5 onClick={() => { handleClick(5) }} />
-                        <Card6 onClick={() => { handleClick(6) }} />
-                        <Card7 onClick={() => { handleClick(7) }} />
-                        <Card8 onClick={() => { handleClick(8) }} />
-                        <Card9 onClick={() => { handleClick(9) }} />
-                        <Card10 onClick={() => { handleClick(10) }} />
-                        <Card11 onClick={() => { handleClick(11) }} />
-                        <Card12 onClick={() => { handleClick(12) }} />
+                            <Card12 onClick={() => { handleClick(12) }} />
+                            <Card10 onClick={() => { handleClick(10) }} />
+                            <Card3 onClick={() => { handleClick(3) }} />
+                            <Card0 onClick={() => { handleClick(0) }} />
+                            <Card7 onClick={() => { handleClick(7) }} />
+                            <Card4 onClick={() => { handleClick(4) }} />
+                            <Card6 onClick={() => { handleClick(6) }} />
+                            <Card5 onClick={() => { handleClick(5) }} />
+                            <Card8 onClick={() => { handleClick(8) }} />
+                            <Card11 onClick={() => { handleClick(11) }} />
+                            <Card2 onClick={() => { handleClick(2) }} />
+                            <Card1 onClick={() => { handleClick(1) }} />
+                            <Card9 onClick={() => { handleClick(9) }} />
                         </div>
                     </Tab>
                 </Tabs>
@@ -116,7 +139,7 @@ function Section() {
             </ModalState.Provider>
 
 
-<br></br>
+            <br></br>
         </section>
     )
 }
