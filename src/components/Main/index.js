@@ -14,9 +14,14 @@ function Main() {
                 <div className="mt-5 mx-5 col-9">
                     <h1 className="display-4" id="suit">Claire Vita</h1>
                     <br></br>
-                    <p className="lead">Claire is a professional in the field of gamified experience development. Her designs
-                    span mobile, web, and virtual reality platforms. As a project manager, she elevates teams and
-                    supports projects to delivery, come hell or highwater.
+                    <p className="lead">Claire produces media for screens. She has designed and coordinated production for video, graphic, and live stream media. 
+                    
+                    As a project manager, she elevates teams and supports projects to delivery, come hell or highwater.
+
+                    <br></br>
+                    <br></br>
+
+                    This is her video portfolio! Included are samples of the kinds of work she's produced in the past. For development samples, see her <a href="https://clairevita.herokuapp.com/">programming portfolio</a>.
                 </p>
 
                 </div>
