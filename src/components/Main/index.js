@@ -14,7 +14,7 @@ function Main() {
                 <div className="mt-5 mx-5 col-9">
                     <h1 className="display-4" id="suit">Claire Vita</h1>
                     <br></br>
-                    <p className="lead">Claire produces media for screens. She has designed and coordinated production for video, graphic, and live stream media. 
+                    <p className="lead">Claire produces media for screens. She has designed and coordinated production for video, interactive, and live stream media. 
                     
                     As a project manager, she elevates teams and supports projects to delivery, come hell or highwater.
 
