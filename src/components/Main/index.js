@@ -16,6 +16,7 @@ function Main() {
                     <br></br>
                     <p className="lead">Claire is a professional of simulation-based learning experiences, with a subject matter expertise in Extended Reality technologies. As a project manager, she elevates teams and
                     supports projects to delivery.
+                    
                 </p>
 
                 </div>
