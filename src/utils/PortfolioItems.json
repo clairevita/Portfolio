@@ -7,7 +7,7 @@
         "What's My Weather?, 2020",
         "CSC-Visualizer, 2020",
         "Uguale, 2021",
-        "VRsterilization, TBA"
+        "VRsterilization, 2021"
     ],
     "technologies": [
         [
@@ -102,7 +102,7 @@
             "Github Repository"
         ],
         [
-            "TBA"
+            "https://clairevita.herokuapp.com/"
         ]
     ]
 }

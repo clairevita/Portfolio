@@ -9,7 +9,7 @@ const Card7 = ({ onClick }) => (
                 alt="A screenshot from vrSterilization. The VR user is looking at a sterile processing department including an autoclave, computer, and doorway to a gas sterilization room.">
             </img>
             <div className="card-img-overlay">
-                <h1 className="center display-4">VRsterilization, TBA</h1>
+                <h1 className="center display-4">VRsterilization, 2021</h1>
             </div>
         </div>
     </div>

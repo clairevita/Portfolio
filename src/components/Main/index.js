@@ -14,8 +14,7 @@ function Main() {
                 <div className="mt-5 mx-5 col-9">
                     <h1 className="display-4" id="suit">Claire Vita</h1>
                     <br></br>
-                    <p className="lead">Claire is a professional in the field of gamified experience development. Her designs
-                    span mobile, web, and virtual reality platforms. As a project manager, she elevates teams and
+                    <p className="lead">Claire is a professional of simulation-based learning experiences, with a subject matter expertise in Extended Reality technologies. As a project manager, she elevates teams and
                     supports projects to delivery, come hell or highwater.
                 </p>
 
