@@ -15,7 +15,7 @@ function Main() {
                     <h1 className="display-4" id="suit">Claire Vita</h1>
                     <br></br>
                     <p className="lead">Claire is a professional of simulation-based learning experiences, with a subject matter expertise in Extended Reality technologies. As a project manager, she elevates teams and
-                    supports projects to delivery, come hell or highwater.
+                    supports projects to delivery.
                 </p>
 
                 </div>
